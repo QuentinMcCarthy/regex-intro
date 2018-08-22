@@ -7,15 +7,25 @@
 	<body>
 		<form onsubmit="validatePhPost()">
 			<label for="phoneNum">Phone Number:</label>
-			<br>
 			<input id="phoneNum" type="text" name="phoneNum" value="">
-			<br>
 
 			<label for="postCode">Postal Code:</label>
-			<br>
 			<input id="postCode" type="text" name="postCode" value="">
 
 			<input type="submit" name="" value="submit">
+		</form>
+
+		<form onsubmit="validateLogin()">
+			<label for="username">Username:</label>
+			<input id="username" type="text" name="username" value="">
+
+			<label for="password">Password:</label>
+			<input id="password" type="password" name="" value="">
+
+			<label for="confirmPass">Confirm Password:</label>
+			<input id="confirmPass" type="password" name="confirmPass" value="">
+
+			<input type="submit" value="Submit">
 		</form>
 
 		<script src="js/script.js"></script>
