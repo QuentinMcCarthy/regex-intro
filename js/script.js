@@ -1,4 +1,4 @@
-function validate(){
+function validatePhPost(){
 	event.preventDefault();
 
 	var phoneNumber = document.getElementById("phoneNum").value,
